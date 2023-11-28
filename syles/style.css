@@ -1,0 +1,42 @@
+/**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    font-size: 62.5%; } */
+
+.container{
+    display: flex;    
+    background-color: lightcoral;
+    height: 500px;
+    width: 700px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: end;
+    gap: 5px;
+   /* align-content: flex-end;*/
+  
+    
+}
+.box{
+    width: 200px;
+    height: 150px;
+    background-color: aquamarine;
+    border: 1px solid blueviolet;
+    
+}
+/*
+.one{
+    background-color: green;
+    justify-content: center;
+    align-content: center;
+    order: 1;
+}*/
+/*
+#ten{
+    align-content: stretch;
+
+}*/
